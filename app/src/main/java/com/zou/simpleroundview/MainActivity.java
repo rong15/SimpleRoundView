@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         circleView = findViewById(R.id.circleView);
+
+        
         circleView.setUrl("https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=233386756,608033436&fm=27&gp=0.jpg");
 
     }
