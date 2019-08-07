@@ -37,7 +37,7 @@ public class CircleView extends AppCompatImageView {
         TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.zrCircleView);
         if (ta != null){
             mCircleColor = ta.getColor(R.styleable.zrCircleView_circle_color,0xffffffff);
-            mCircleWidth = ta.getDimension(R.styleable.zrCircleView_circle_width,6f);
+            mCircleWidth = ta.getDimension(R.styleable.zrCircleView_circle_width,3f);
 
             ta.recycle();
         }
